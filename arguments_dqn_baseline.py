@@ -8,8 +8,8 @@ Here are the param for the training
 def get_args():
     parser = argparse.ArgumentParser()
     # the environment setting
-    parser.add_argument('--env-name', type=str, default='Bitflip-v0', help='the environment name')
-    parser.add_argument('--test', type=str, default='Bitflip-v0', help='the test environment name')
+    parser.add_argument('--env-name', type=str, default='DMLabNavigation-v0', help='the environment name')
+    parser.add_argument('--test', type=str, default='DMLabNavigation-v0', help='the test environment name')
     parser.add_argument('--n-epochs', type=int, default=100, help='the number of epochs to train the agent')
     parser.add_argument('--n-batches', type=int, default=40, help='the times to update the network')
     parser.add_argument('--seed', type=int, default=123, help='random seed')
